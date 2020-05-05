@@ -1,0 +1,10 @@
+<map id="shape.h" name="shape.h">
+<area shape="rect" id="node2" href="$view_8h.html" title="view.h" alt="" coords="70,80,134,107"/>
+<area shape="rect" id="node7" href="$document_8h.html" title="document.h" alt="" coords="158,80,257,107"/>
+<area shape="rect" id="node9" href="$shape_8cpp.html" title="shape.cpp" alt="" coords="281,80,369,107"/>
+<area shape="rect" id="node3" href="$controller_8h.html" title="controller.h" alt="" coords="108,155,203,181"/>
+<area shape="rect" id="node6" href="$view_8cpp.html" title="view.cpp" alt="" coords="5,155,84,181"/>
+<area shape="rect" id="node4" href="$controller_8cpp.html" title="controller.cpp" alt="" coords="40,229,151,256"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="main.cpp" alt="" coords="175,229,258,256"/>
+<area shape="rect" id="node8" href="$document_8cpp.html" title="document.cpp" alt="" coords="227,155,342,181"/>
+</map>

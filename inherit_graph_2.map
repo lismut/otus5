@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structShape.html" title="Абстрактный класс для гравических элементов " alt="" coords="5,56,68,83"/>
+<area shape="rect" id="node2" href="$structCircle.html" title="Класс для хранения окружности " alt="" coords="120,5,179,32"/>
+<area shape="rect" id="node3" href="$structPoint.html" title="Класс для хранения точки " alt="" coords="122,56,177,83"/>
+<area shape="rect" id="node4" href="$structSquare.html" title="Класс для хранения квадрата " alt="" coords="116,107,183,133"/>
+</map>

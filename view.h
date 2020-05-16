@@ -20,7 +20,7 @@ public:
     /// @brief метод отображения отдельного элемента
     /// @param idx индекс отображаемого элемента
     void update(size_t idx) {
-        shapes[idx]->draw();
+        shapes.at(idx)->draw();
     }
 private:
     const ShapesVec& shapes;

@@ -14,8 +14,9 @@ enum TDirection {
 /// @brief Абстрактный класс для гравических элементов
 struct Shape {
 public:
-    virtual void draw() = 0;
+    virtual void draw() const = 0;
     virtual void serialize(TDirection dir, std::string& contains) = 0;
+    virtual ~Shape() {}
 };
 
 typedef std::vector<std::unique_ptr<Shape>> ShapesVec;
@@ -23,7 +24,7 @@ typedef std::vector<std::unique_ptr<Shape>> ShapesVec;
 /// @brief Класс для хранения окружности
 struct Circle : public Shape {
 public:
-    void draw() final {
+    void draw() const final {
         std::cout << "draw circle" << std::endl;
     };
     void serialize(TDirection dir, std::string& contains) final {
@@ -40,7 +41,7 @@ public:
 /// @brief Класс для хранения точки
 struct Point : public Shape {
 public:
-    void draw() final {
+    void draw() const final {
         std::cout << "draw point" << std::endl;
     };
     void serialize(TDirection dir, std::string& contains) final {
@@ -57,7 +58,7 @@ public:
 /// @brief Класс для хранения квадрата
 struct Square : public Shape {
 public:
-    void draw() final {
+    void draw() const final {
         std::cout << "draw square" << std::endl;
     };
     void serialize(TDirection dir, std::string& contains) final {
